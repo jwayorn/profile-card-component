@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+   .wrap {
+      background-image: 
+      url(/images/bg-pattern-top.svg),
+      url(/images/bg-pattern-bottom.svg);
+      background-position: -764px -550px, calc(100% + 661px) calc(100% + 674px);
+      background-origin: border-box, border-box;
+      background-repeat: no-repeat, no-repeat;
+   }
+
+   @media (min-width: 1024px) {
+      .wrap {
+         background-position: -455px -526px, calc(100% + 341px) calc(100% + 674px);
+      }
+   }
+
+   @media (min-width: 1220px) {
+      .wrap {
+         background-position: -308px -526px, calc(100% + 203px) calc(100% + 674px);
+      }
+   }
+    
+}

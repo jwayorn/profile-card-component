@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/png">
+   <title>Profile Card Component</title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body class="text-lg">
+
+   <div class="wrap bg-dark-cyan py-40 px-5 desktop:max-w-desktop mx-auto">
+         <!-- card -->
+         <div class="max-w-mobile mx-auto rounded-3xl overflow-hidden">
+
+            <div class="relative">
+
+               <!-- profile detail -->
+               <div class="absolute w-full text-center top-28">
+                  <img 
+                     src="images/image-victor.jpg" 
+                     alt="profile image" 
+                     class="border-4 rounded-full border-white inline-block mb-5"
+                  >
+                  <h3 class="text-2xl font-bold text-vary-dark-desaturated mb-2">Victor Crest <span class=" font-normal text-dark-gray">26</span></h3>
+                  <p class="text-dark-grayish-blue">London</p>
+               </div>
+
+               <!-- head background pattern -->
+               <div class="bg-card-pattern bg-no-repeat bg-cover w-full h-40"></div>
+               
+               <!-- body detail -->
+               <div class="bg-white h-40">
+                  
+               </div>
+            </div>
+            
+            <!-- footer state -->
+            <div class="bg-white border-t">
+
+               <div class="flex justify-around items-center py-6 px-5">
+
+                  <div class="text-center leading-tight">
+                     <span class="font-bold text-2xl text-vary-dark-desaturated">80K</span>
+                     <br/>
+                     <span class="text-dark-gray text-sm tracking-widest">Followers</span>
+                  </div>
+                  
+                  <div class="text-center leading-tight">
+                     <span class="font-bold text-2xl text-vary-dark-desaturated">803K</span>
+                     <br/>
+                     <span class="text-dark-gray text-sm tracking-widest">Likes</span>
+                  </div>
+                  
+                  <div class="text-center leading-tight">
+                     <span class="font-bold text-2xl text-vary-dark-desaturated">1.4K</span>
+                     <br/>
+                     <span class="text-dark-gray text-sm tracking-widest">Photos</span>
+                  </div>
+               </div>
+                  
+            </div>
+         </div>
+   </div>
+
+</body>
+</html>
